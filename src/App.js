@@ -56,7 +56,7 @@ function App() {
   const getNext=(min=1,max=600)=>{
     if ((pokemon.id === isNaN) ||  (pokemon.id === undefined )){
       return pokemon.id = 0;
-      lis();
+      
     }
     if(pokemon.id >= max){
       return pokemon.id = min;
@@ -70,7 +70,7 @@ function App() {
  const getBack=(min=1, max=600)=>{
 if ((pokemon.id === isNaN) ||  (pokemon.id === undefined )){
   return pokemon.id = 600;
-  lis();
+  
 }
   if(pokemon.id<=min){
   return pokemon.id=max;
